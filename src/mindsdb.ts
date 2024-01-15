@@ -4,9 +4,9 @@ export async function getResponse(question: string) {
         console.log("staringg.....");
         console.log("neww" ,question);
         await MindsDB.connect({
-            host: 'https://hackathon.mindsdb.com/',
-            user: 'mail2pritipriya@gmail.com',
-            password: '@Tara4747'
+            host: 'yourHost',
+            user: 'youremail@gmail.com',
+            password: 'yourPassword'
         });
 
    const query = `SELECT prompt, completion FROM openai_vscode as m WHERE prompt ="${question}"`;

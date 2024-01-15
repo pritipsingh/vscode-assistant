@@ -43,6 +43,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "dotenv": "^16.3.1",
     "mindsdb-js-sdk": "^2.3.0",
     "nodemon": "^3.0.2"
   }
